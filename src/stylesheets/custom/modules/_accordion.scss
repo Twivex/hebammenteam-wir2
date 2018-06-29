@@ -1,0 +1,14 @@
+.panel-group#accordion > .panel {
+	@extend %theme-coloring;
+	
+	margin-top: 20px;
+	
+	.panel-heading {
+		cursor: pointer;
+		
+		a:hover {
+			text-decoration: none;
+		}
+	}
+}
+

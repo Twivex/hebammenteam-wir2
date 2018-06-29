@@ -1,0 +1,23 @@
+/*
+ * Extension for Bootstrap class dl-horizontal
+ */
+
+.dl-horizontal {
+	h4 {
+		@media (min-width: $screen-sm-min) {
+			margin-left: 42px;
+		}
+	}
+	
+	dt, dd {
+		padding: 10px 0;
+	}
+	
+	dt {
+		@extend .hidden-xs;
+	}
+	
+	dd a {
+		padding: 10px 5px;
+	}
+}
